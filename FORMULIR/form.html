@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulir Data Pengguna</title>
+</head>
+<body>
+  <h2>Formulir Data Pengguna</h2>
+  <form action="proses.php" method="POST">
+    <label>Nama:</label><br>
+    <input type="text" name="nama" required><br><br>
+
+    <label>Alamat:</label><br>
+    <textarea name="alamat" rows="3" cols="30" required></textarea><br><br>
+
+    <label>Tanggal Lahir:</label><br>
+    <input type="date" name="tanggal_lahir" required><br><br>
+
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" name="jenis_kelamin" value="Laki-laki" required> Laki-laki
+    <input type="radio" name="jenis_kelamin" value="Perempuan" required> Perempuan
+    <br><br>
+
+    <button type="submit">Kirim</button>
+  </form>
+</body>
+</html>
